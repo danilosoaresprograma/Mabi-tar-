@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+/* FUNDO */
+.bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(270deg, #1a0026, #3a0066, #6a00f4);
+  background-size: 600% 600%;
+  animation: flow 12s ease infinite;
+  z-index: -1;
+}
+
+@keyframes flow {
+  0% { background-position: 0% }
+  50% { background-position: 100% }
+  100% { background-position: 0% }
+}
+
+/* SEÇÕES */
+section {
+  padding: 60px 20px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+/* BOTÃO */
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  background: #a855f7;
+  color: white;
+  cursor: pointer;
+}
+
+/* CARTA */
+.card {
+  width: 180px;
+  margin: auto;
+  background: #2a0040;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* INPUT */
+textarea {
+  width: 80%;
+  height: 100px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
